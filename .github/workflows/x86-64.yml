@@ -18,7 +18,7 @@ on:
 env:
   CONFIG_FILE: config/x86/64.config
   SOURCE_URL: https://github.com/coolsnowwolf/lede
-  SOURCE_BRANCH: 20221001
+  SOURCE_BRANCH: master
   DIY_SH: scripts/custom.sh
   TOOLCHAIN_TAG: toolchain
   CLASH_BINARY_PLATFORM: amd64
