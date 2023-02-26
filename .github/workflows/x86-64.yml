@@ -10,10 +10,10 @@ name: Build x86/64 openwrt
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: 0 18 * * *
-  # watch:
-  #   types: started
+  # schedule:
+  #  - cron: 0 18 * * *
+  watch:
+     types: started
 
 env:
   CONFIG_FILE: config/x86/64.config
